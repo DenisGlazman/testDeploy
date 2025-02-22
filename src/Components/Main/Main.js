@@ -1,8 +1,9 @@
 import React from "react";
-function Main (){
+const Main = ()=>{
     return(
         <div className="Main">
             This is Main Div
+            <div className="Second">And this is second div</div>
         </div>
     )
 }
